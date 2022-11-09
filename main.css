@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .read-more-style {
+        @apply text-sm float-right px-2 py-1 rounded-md  text-white  bg-red-500 hover:bg-red-700    active:bg-red-700 focus:ring focus:ring-red-300;
+        
+    }
+  }
